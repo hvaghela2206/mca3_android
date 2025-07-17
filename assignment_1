@@ -1,0 +1,182 @@
+//fun main(args: Array<String>) {
+//    println("jeel")
+//    println("Atmiya University")
+//2.
+//    println("rajkot")
+//    println("jeel")
+
+//3.
+//   print("enter the number:")
+//    var num1 = readLine()!!.toInt()
+//    print("Enter second number:")
+//    var num2 = readLine()!!.toInt()
+//    println(num1+num2)
+//    println(num1-num2)
+//    println(num1*num2)
+//    println(num1/num2)
+//}
+
+
+//4.
+//fun main() {
+//    val principal = 1000.0
+//    val rate = 5.0
+//    val time = 2.0
+//
+//    val simpleInterest = (principal * rate * time) / 100
+//
+//    println("Simple Interest = $simpleInterest")
+//}
+
+//5.
+//fun main(){
+//    print("enter principle amount: ")
+//    val principal = readLine()!!.toDouble()
+//
+//    print("enter rate amount: ")
+//    val rate = readLine()!!.toDouble()
+//
+//    print("enter time : ")
+//    val time = readLine()!!.toDouble()
+//    val interest = principal.toDouble() * Math.pow((1 + rate.toDouble()/100.00), time.toDouble())
+//    println(interest)
+//
+//}
+
+
+//fun main(){
+//
+//    var a = 35
+//    var b = 30
+//    println("before a: a= $a, b = $b")
+//    val temp = a
+//    a = b
+//    b = temp
+//    println ("after : a = $a, b = $b")
+//}
+
+fun main(){
+   var a = 12
+   var b = 13
+   println("before a: a= $a,b = $b")
+   a= a+b
+   b=a-b
+   a=a-b
+   println("after: a =$a, b= $b")
+}
+
+
+
+fun main() {
+   println("Enter your salary: ")
+   val salary = readLine()!!.toDouble()
+
+
+   val bonus = salary *0.10
+
+
+   println("your 10% bonus is: $bonus")
+   println("total salary with bonus: $${salary + bonus}")
+}
+
+Output:
+Enter your salary: 
+50000
+your 10% bonus is: 5000.0
+total salary with bonus: $55000.0
+
+fun main() {
+   println("Enter distance in kilometers: ")
+   val kilometers = readLine()!!.toDouble()
+
+
+   val meter = kilometers * 1000
+
+
+
+
+   println("$kilometers kilometers is equal to $meter meters.")
+}
+
+
+
+Output:
+Enter distance in kilometers: 
+100
+100.0 kilometers is equal to 100000.0 meters.
+
+fun main() {
+   println("Enterdistance between two cities in kilometers: ")
+   val kilometers = readLine()!!.toDouble()
+
+
+   val meter = kilometers * 1000
+   val centimeters = meter *100
+   val feet = meter * 3.28084
+   val inches = feet *12
+
+
+
+
+   println("distance in meter: $meter m")
+   println("distance in centimeters: $centimeters cm")
+   println("distance in feet: $feet ft")
+   println("distance in inches: $inches in")
+}
+
+
+
+
+
+
+
+Output:
+
+Enterdistance between two cities in kilometers: 
+5
+distance in meter: 5000.0 m
+distance in centimeters: 500000.0 cm
+distance in feet: 16404.2 ft
+distance in inches: 196850.40000000002 in
+
+Revers your string 
+
+fun main() {
+   println("Enter your name: ")
+   val name = readLine()!!
+
+
+   val reverseName = name.reversed()
+   println("reverse your name: $reverseName")
+}
+
+Output:
+Enter your name: 
+riya
+reverse your name: ayir
+
+revers a string Using for loop
+
+fun main() {
+   println("Enter your name: ")
+   val name = readLine()!!
+
+
+   var reverseName = ""
+
+
+   val i = 0
+   for (i in name.length - 1 downTo 0)
+   {
+       reverseName += name[i]
+   }
+   println("reverse your name: $reverseName")
+}
+
+
+Output:
+
+Enter your name: 
+priya
+reverse your name: ayirp
+
