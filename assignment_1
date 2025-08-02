@@ -1,4 +1,4 @@
-//fun main(args: Array<String>) {
+//1.fun main(args: Array<String>) {
 //    println("jeel")
 //    println("Atmiya University")
 //2.
@@ -43,7 +43,7 @@
 //
 //}
 
-
+6.
 //fun main(){
 //
 //    var a = 35
@@ -55,6 +55,8 @@
 //    println ("after : a = $a, b = $b")
 //}
 
+
+7.
 fun main(){
    var a = 12
    var b = 13
@@ -66,7 +68,7 @@ fun main(){
 }
 
 
-
+8.
 fun main() {
    println("Enter your salary: ")
    val salary = readLine()!!.toDouble()
@@ -85,6 +87,8 @@ Enter your salary:
 your 10% bonus is: 5000.0
 total salary with bonus: $55000.0
 
+
+9.
 fun main() {
    println("Enter distance in kilometers: ")
    val kilometers = readLine()!!.toDouble()
@@ -105,6 +109,8 @@ Enter distance in kilometers:
 100
 100.0 kilometers is equal to 100000.0 meters.
 
+
+10.
 fun main() {
    println("Enterdistance between two cities in kilometers: ")
    val kilometers = readLine()!!.toDouble()
@@ -139,7 +145,7 @@ distance in centimeters: 500000.0 cm
 distance in feet: 16404.2 ft
 distance in inches: 196850.40000000002 in
 
-Revers your string 
+11.Revers your string 
 
 fun main() {
    println("Enter your name: ")
@@ -155,7 +161,7 @@ Enter your name:
 riya
 reverse your name: ayir
 
-revers a string Using for loop
+12.revers a string Using for loop
 
 fun main() {
    println("Enter your name: ")
